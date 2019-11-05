@@ -6,47 +6,53 @@
 import React from "react";
 
 class Beer extends React.Component {
-  constructor(props) {
-    super(props);
+	constructor(props) {
+		super(props);
 
-    this.state = {
-      page: 1,
-      beers: "",
-      visible: 6 // Amount of movies on main page on first load
-    };
+		this.state = {
+			page: 2,
+			beers: []
+		};
 
-    this.loadMore = this.loadMore.bind(this);
-  }
+		// this.loadMore = this.loadMore.bind(this);
+	}
 
-  // Load more movies on main page
-  loadMore = () => {
-    this.setState(prev => {
-      return { visible: prev.visible + 4 }; // Adding four more movies on "Load more"
-    });
+	loadMore = () => {
+		const url = `https://api.punkapi.com/v2/beers?page=${this.state.page}&per_page=20`;
 
-    this.setState(prev => {
-      return { page: prev.visible + 1 }; // Adding four more movies on "Load more"
-    });
+		fetch(url)
+			.then(res => res.json())
+			.then(data => this.setState({ beers: data }));
 
-    const url = `https://api.punkapi.com/v2/beers?page=${this.state.page}&per_page=20`;
+		this.setState(prev => {
+			return { page: prev.page + 1 };
+		});
+	};
 
-    fetch(url)
-      .then(res => res.json())
-      .then(data => this.setState({ beers: data }));
+	componentDidMount = () => {
+		const url = `https://api.punkapi.com/v2/beers?page=1&per_page=20`;
 
-    console.log(this.state.beers);
-  };
+		fetch(url)
+			.then(res => res.json())
+			.then(data => this.setState({ beers: data }));
 
-  componentDidMount = () => {};
+		console.log(this.state.beers);
+	};
 
-  render() {
-    return (
-      <div>
-        <h1>Hey Beer component</h1>
-        <button onClick={this.loadMore}>Load more</button>
-      </div>
-    );
-  }
+	render() {
+		return (
+			<div>
+				<h1>Hey Beer component</h1>
+				{this.state.beers.length > 19 && (
+					<button onClick={this.loadMore}>Load more</button>
+				)}
+
+				{this.state.beers.map(beer => (
+					<h1>{beer.name}</h1>
+				))}
+			</div>
+		);
+	}
 }
 
 export default Beer;
