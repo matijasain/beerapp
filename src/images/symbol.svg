@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>symbol</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-106.000000, -52.000000)">
+        <g id="symbol" transform="translate(106.000000, 52.000000)">
+            <circle id="background" fill="#FFC80A" cx="12" cy="12" r="12"></circle>
+            <path d="M12,7 L12,20 L9,20 C9.14016908,20 9.50268286,15.9142857 9,13 C8.93796695,11.9936508 8.07518415,10.0188889 8,8 C8.00066743,7.81136508 7.99825067,7.4151746 8,7 L12,7 Z" id="beer" fill="#D16500" fill-rule="nonzero"></path>
+            <path d="M15,20 C15,20.5523529 14.6844288,21 14,21 L10,21 C9.31557122,21 9,20.5523529 9,20 L15,20 Z" id="beer" fill="#EAE7D5" fill-rule="nonzero"></path>
+            <path d="M16,8 C15.9189246,10.0188889 14.9830887,11.9936508 15,13 C14.3708433,15.9142857 14.7638682,20 15,20 L12,20 L12,7 L16,7 C16.0018966,7.4151746 15.9992764,7.81136508 16,8 Z" id="beer" fill="#DD7E00" fill-rule="nonzero"></path>
+            <path d="M16,7 L8,7 C8.01520497,5.1772043 8.14668323,3 8,3 L16,3 C15.8533168,3 15.984795,5.1772043 16,7 Z" id="beer" fill="#EAE7D5" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

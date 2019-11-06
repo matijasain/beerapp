@@ -1,0 +1,61 @@
+@import "../Main.scss";
+
+.card {
+	border: 1px solid rgba(226, 226, 226, 0.3);
+
+	-webkit-box-shadow: 6px 6px 12px -12px rgba(89, 89, 89, 1);
+	-moz-box-shadow: 6px 6px 12px -12px rgba(89, 89, 89, 1);
+	box-shadow: 6px 6px 12px -12px rgba(89, 89, 89, 1);
+	border-radius: 6px;
+	margin: 2.25rem;
+
+	display: flex;
+	width: 20rem;
+	height: 24rem;
+
+	&__non-favorite {
+		cursor: pointer;
+		background: url("./img/heart_outline.png") no-repeat;
+		align-self: flex-start;
+		margin: 4px;
+		padding: 1rem;
+		background-size: 1.5rem;
+	}
+
+	&__favorite {
+		cursor: pointer;
+		background: url("./img/heart_solid.png") no-repeat;
+		align-self: flex-start;
+		margin: 4px;
+		padding: 1rem;
+		background-size: 1.5rem;
+	}
+
+	&__inner-container {
+		display: flex;
+		align-items: center;
+		margin-left: -7px;
+
+		&__beer-image {
+			img {
+				height: 14rem;
+			}
+		}
+
+		&__description {
+			font-size: 12px;
+			font-weight: 700;
+			padding-left: 5px;
+			text-transform: uppercase;
+
+			&__beer-name,
+			&__beer-ibu,
+			&__beer-abv {
+				font-size: 12px;
+				font-weight: 700;
+				padding-left: 5px;
+				text-transform: uppercase;
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+.navigation {
+	&__logo {
+		padding-top: 15px;
+		& .beer-logo {
+			padding-right: 5px;
+			content: url("../../images/symbol.png");
+		}
+
+		& .beerup-logo {
+			content: url("./img/logo.png");
+		}
+	}
+}
