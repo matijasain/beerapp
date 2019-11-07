@@ -1,0 +1,29 @@
+.header-main {
+	display: flex;
+	color: white;
+	font-size: 5rem;
+	font-weight: 700;
+
+	&__main-text {
+		padding-top: 8rem;
+		width: 50%;
+
+		&__small-heading {
+			font-size: 1.5rem;
+		}
+
+		&__main-heading {
+			padding-top: 2rem;
+			line-height: 1;
+			padding-bottom: 3.5rem;
+			width: 75%;
+			font-size: 3.85rem;
+		}
+	}
+
+	&__main-image {
+		padding-top: 8rem;
+		height: 80vh;
+		content: url("./img/illustration.svg");
+	}
+}

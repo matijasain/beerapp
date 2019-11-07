@@ -1,9 +1,11 @@
 .cards-container {
+	position: relative;
+	z-index: 10;
+
 	display: flex;
+	background-color: #f7f7f7;
 	align-items: flex-start;
 	justify-content: center;
 	flex-wrap: wrap;
 	height: 100%;
-
-	margin: 1rem;
 }

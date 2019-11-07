@@ -61,7 +61,6 @@ class Beer extends React.Component {
 						/>
 					))}
 				</CardsContainer>
-
 				{this.state.beers.length > 14 && (
 					<button onClick={this.loadMore}>Load more</button>
 				)}

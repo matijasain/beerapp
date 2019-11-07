@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from "../Navigation/Navigation";
+import HeaderMain from "../HeaderMain/HeaderMain";
 
 import "./HeaderContainer.scss";
 
@@ -8,8 +9,7 @@ class HeaderContainer extends React.Component {
 		return (
 			<div className="header-container">
 				<Navigation />
-				sodamas
-				<p>sad</p>
+				<HeaderMain />
 			</div>
 		);
 	}

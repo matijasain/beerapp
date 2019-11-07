@@ -1,6 +1,11 @@
 .navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
 	&__logo {
-		padding-top: 15px;
+		align-items: center;
+
 		& .beer-logo {
 			padding-right: 5px;
 			content: url("../../images/symbol.png");
@@ -8,6 +13,35 @@
 
 		& .beerup-logo {
 			content: url("./img/logo.png");
+		}
+	}
+
+	&__menu {
+		display: flex;
+		width: 30rem;
+		justify-content: space-between;
+		align-items: center;
+
+		color: white;
+		font-size: 1.25rem;
+		font-weight: 700;
+		box-sizing: border-box;
+
+		:not(:last-child) {
+			cursor: pointer;
+		}
+
+		span:not(:last-child):hover {
+			border-bottom: 2px solid #f9c847;
+			border-bottom-left-radius: 1px;
+			border-bottom-right-radius: 1px;
+		}
+
+		span.join {
+			border: 3px solid #f9c847;
+			border-radius: 35px;
+			padding: 1.25rem 3.75rem;
+			cursor: pointer;
 		}
 	}
 }

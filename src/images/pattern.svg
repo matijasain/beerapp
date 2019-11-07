@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>pattern</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="512" height="512"></rect>
+    </defs>
+    <g id="assets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-809.000000, -714.000000)">
+        <g id="pattern" transform="translate(809.000000, 714.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <path d="M24,48.2196983 L24,53.7198486 C22.6883236,54.7996515 21.5196649,56 18.9281847,56 C14.1922566,56 14.1922566,51.9995193 9.45632853,51.9995193 C4.72857289,51.9995193 4.72857289,56 -0.00735519461,56 C-4.74328328,56 -4.74328328,51.9995193 -9.47185617,51.9995193 C-14.2077842,51.9995193 -14.2077842,56 -18.9355399,56 C-21.5196649,56 -22.6956788,54.8098672 -24,53.7300643 L-24,48.2196983 C-24,43.1302205 -20.6958831,39 -16.6243743,39 L16.6235571,39 C20.6958831,39 24,43.1302205 24,48.2196983 Z" id="patterny-things" stroke-opacity="0.24" stroke="#FFC80A" mask="url(#mask-2)" fill-rule="nonzero" transform="translate(0.000000, 47.500000) scale(1, -1) translate(-0.000000, -47.500000) "></path>
+            <path d="M536,48.2196983 L536,53.7198486 C534.688324,54.7996515 533.519665,56 530.928185,56 C526.192257,56 526.192257,51.9995193 521.456329,51.9995193 C516.728573,51.9995193 516.728573,56 511.992645,56 C507.256717,56 507.256717,51.9995193 502.528144,51.9995193 C497.792216,51.9995193 497.792216,56 493.06446,56 C490.480335,56 489.304321,54.8098672 488,53.7300643 L488,48.2196983 C488,43.1302205 491.304117,39 495.375626,39 L528.623557,39 C532.695883,39 536,43.1302205 536,48.2196983 Z" id="patterny-things" stroke-opacity="0.24" stroke="#FFC80A" mask="url(#mask-2)" fill-rule="nonzero" transform="translate(512.000000, 47.500000) scale(1, -1) translate(-512.000000, -47.500000) "></path>
+            <path d="M229,166.219698 L229,171.719849 C227.688324,172.799651 226.519665,174 223.928185,174 C219.192257,174 219.192257,169.999519 214.456329,169.999519 C209.728573,169.999519 209.728573,174 204.992645,174 C200.256717,174 200.256717,169.999519 195.528144,169.999519 C190.792216,169.999519 190.792216,174 186.06446,174 C183.480335,174 182.304321,172.809867 181,171.730064 L181,166.219698 C181,161.130221 184.304117,157 188.375626,157 L221.623557,157 C225.695883,157 229,161.130221 229,166.219698 Z" id="patterny-things" stroke-opacity="0.48" stroke="#FFC80A" mask="url(#mask-2)" fill-rule="nonzero" transform="translate(205.000000, 165.500000) scale(1, -1) translate(-205.000000, -165.500000) "></path>
+            <path d="M304,513.219698 L304,518.719849 C302.688324,519.799651 301.519665,521 298.928185,521 C294.192257,521 294.192257,516.999519 289.456329,516.999519 C284.728573,516.999519 284.728573,521 279.992645,521 C275.256717,521 275.256717,516.999519 270.528144,516.999519 C265.792216,516.999519 265.792216,521 261.06446,521 C258.480335,521 257.304321,519.809867 256,518.730064 L256,513.219698 C256,508.130221 259.304117,504 263.375626,504 L296.623557,504 C300.695883,504 304,508.130221 304,513.219698 Z" id="patterny-things" stroke-opacity="0.24" stroke="#FFC80A" mask="url(#mask-2)" fill-rule="nonzero" transform="translate(280.000000, 512.500000) scale(1, -1) translate(-280.000000, -512.500000) "></path>
+            <path d="M304,0.219698335 L304,5.71984857 C302.688324,6.79965146 301.519665,8 298.928185,8 C294.192257,8 294.192257,3.99951926 289.456329,3.99951926 C284.728573,3.99951926 284.728573,8 279.992645,8 C275.256717,8 275.256717,3.99951926 270.528144,3.99951926 C265.792216,3.99951926 265.792216,8 261.06446,8 C258.480335,8 257.304321,6.8098672 256,5.7300643 L256,0.219698335 C256,-4.86977946 259.304117,-9 263.375626,-9 L296.623557,-9 C300.695883,-9 304,-4.86977946 304,0.219698335 Z" id="patterny-things" stroke-opacity="0.24" stroke="#FFC80A" mask="url(#mask-2)" fill-rule="nonzero" transform="translate(280.000000, -0.500000) scale(1, -1) translate(-280.000000, 0.500000) "></path>
+            <path d="M402,291.219698 L402,296.719849 C400.688324,297.799651 399.519665,299 396.928185,299 C392.192257,299 392.192257,294.999519 387.456329,294.999519 C382.728573,294.999519 382.728573,299 377.992645,299 C373.256717,299 373.256717,294.999519 368.528144,294.999519 C363.792216,294.999519 363.792216,299 359.06446,299 C356.480335,299 355.304321,297.809867 354,296.730064 L354,291.219698 C354,286.130221 357.304117,282 361.375626,282 L394.623557,282 C398.695883,282 402,286.130221 402,291.219698 Z" id="patterny-things" stroke-opacity="0.48" stroke="#FFC80A" mask="url(#mask-2)" fill-rule="nonzero"></path>
+            <path d="M137,341.219698 L137,346.719849 C135.688324,347.799651 134.519665,349 131.928185,349 C127.192257,349 127.192257,344.999519 122.456329,344.999519 C117.728573,344.999519 117.728573,349 112.992645,349 C108.256717,349 108.256717,344.999519 103.528144,344.999519 C98.7922158,344.999519 98.7922158,349 94.0644601,349 C91.4803351,349 90.3043212,347.809867 89,346.730064 L89,341.219698 C89,336.130221 92.3041169,332 96.3756257,332 L129.623557,332 C133.695883,332 137,336.130221 137,341.219698 Z" id="patterny-things" stroke-opacity="0.48" stroke="#FFC80A" mask="url(#mask-2)" fill-rule="nonzero"></path>
+            <circle id="patterny-things" stroke-opacity="0.24" stroke="#FFC80A" mask="url(#mask-2)" cx="333.5" cy="401.5" r="2.5"></circle>
+            <circle id="patterny-things" stroke-opacity="0.24" stroke="#FFC80A" mask="url(#mask-2)" cx="308" cy="107" r="4"></circle>
+            <circle id="patterny-things" stroke-opacity="0.24" stroke="#FFC80A" mask="url(#mask-2)" cx="48.5" cy="154.5" r="2.5"></circle>
+            <circle id="patterny-things" stroke-opacity="0.24" stroke="#FFC80A" mask="url(#mask-2)" cx="490.5" cy="226.5" r="2.5"></circle>
+            <circle id="patterny-things" stroke-opacity="0.24" stroke="#FFC80A" mask="url(#mask-2)" cx="47.5" cy="464.5" r="3.5"></circle>
+            <circle id="patterny-things" stroke-opacity="0.24" stroke="#FFC80A" mask="url(#mask-2)" cx="356.5" cy="282.5" r="7.5"></circle>
+            <circle id="patterny-things" stroke-opacity="0.24" stroke="#FFC80A" mask="url(#mask-2)" cx="155.5" cy="156.5" r="4.5"></circle>
+            <path d="M172,257 L184.649111,257" id="patterny-things" stroke-opacity="0.24" stroke="#FFC80A" mask="url(#mask-2)"></path>
+            <path d="M76,405 L88.6491106,405" id="patterny-things" stroke-opacity="0.24" stroke="#FFC80A" mask="url(#mask-2)"></path>
+            <path d="M402,127 L414.649111,127" id="patterny-things" stroke-opacity="0.24" stroke="#FFC80A" mask="url(#mask-2)"></path>
+            <rect id="patterny-things" stroke-opacity="0.24" stroke="#FFC80A" mask="url(#mask-2)" x="123" y="339" width="9" height="38" rx="4.5"></rect>
+            <rect id="patterny-things" stroke-opacity="0.24" stroke="#FFC80A" mask="url(#mask-2)" x="304" y="119" width="9" height="38" rx="4.5"></rect>
+            <rect id="patterny-things" stroke-opacity="0.24" stroke="#FFC80A" mask="url(#mask-2)" x="123" y="390" width="9" height="9" rx="4.5"></rect>
+        </g>
+    </g>
+</svg>

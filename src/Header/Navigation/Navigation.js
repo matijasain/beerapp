@@ -10,9 +10,11 @@ class Navigation extends React.Component {
 					<span className="beer-logo"></span>
 					<span className="beerup-logo"></span>
 				</div>
-				<div></div>
-				<div></div>
-				<div></div>
+				<div className="navigation__menu">
+					<span>Home</span>
+					<span>Favorites</span>
+					<span className="join">JOIN</span>
+				</div>
 			</div>
 		);
 	}
