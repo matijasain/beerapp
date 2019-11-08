@@ -12,7 +12,7 @@
 		}
 
 		& .beerup-logo {
-			content: url("./img/logo.png");
+			content: url("../../images/logo.png");
 		}
 	}
 
@@ -31,13 +31,23 @@
 			cursor: pointer;
 		}
 
-		span:not(:last-child):hover {
+		.nav-link {
+			color: white;
+			text-decoration: none;
+		}
+
+		.nav-link:hover {
+			color: white;
+			text-decoration: none;
 			border-bottom: 2px solid #f9c847;
 			border-bottom-left-radius: 1px;
 			border-bottom-right-radius: 1px;
 		}
 
-		span.join {
+		.join-link {
+			color: white;
+			text-decoration: none;
+
 			border: 3px solid #f9c847;
 			border-radius: 35px;
 			padding: 1.25rem 3.75rem;

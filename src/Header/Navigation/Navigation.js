@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import "./Navigation.scss";
 
@@ -11,9 +12,17 @@ class Navigation extends React.Component {
 					<span className="beerup-logo"></span>
 				</div>
 				<div className="navigation__menu">
-					<span>Home</span>
-					<span>Favorites</span>
-					<span className="join">JOIN</span>
+					<NavLink className="nav-link" to={"/"}>
+						Home
+					</NavLink>
+
+					<NavLink className="nav-link" to={"/Favorites"}>
+						Favorites
+					</NavLink>
+
+					<NavLink className="join-link" to={"/"}>
+						JOIN
+					</NavLink>
 				</div>
 			</div>
 		);

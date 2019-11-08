@@ -1,9 +1,9 @@
 import React from "react";
 import Button from "../../Button/Button";
 
-import "./HeaderMain.scss";
+import "./HeaderText.scss";
 
-class HeaderMain extends React.Component {
+class HeaderText extends React.Component {
 	render() {
 		return (
 			<div className="header-main">
@@ -22,4 +22,4 @@ class HeaderMain extends React.Component {
 	}
 }
 
-export default HeaderMain;
+export default HeaderText;

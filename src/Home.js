@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card/Card";
-import CardsContainer from "./CardsContainer/CardsContainer";
+import MainSectionContainer from "./MainSectionContainer/MainSectionContainer";
 
 class Beer extends React.Component {
 	constructor(props) {
@@ -15,7 +15,7 @@ class Beer extends React.Component {
 	}
 
 	loadMore = () => {
-		const url = `https://api.punkapi.com/v2/beers?page=${this.state.page}&per_page=24`;
+		const url = `https://api.punkapi.com/v2/beers?page=${this.state.page}&per_page=15`;
 
 		fetch(url)
 			.then(res => res.json())
@@ -27,7 +27,7 @@ class Beer extends React.Component {
 	};
 
 	componentDidMount = () => {
-		const url = `https://api.punkapi.com/v2/beers?page=1&per_page=24`;
+		const url = `https://api.punkapi.com/v2/beers?page=1&per_page=15`;
 
 		fetch(url)
 			.then(res => res.json())
@@ -50,7 +50,7 @@ class Beer extends React.Component {
 
 		return (
 			<div>
-				<CardsContainer>
+				<MainSectionContainer>
 					{this.state.beers.map(beer => (
 						<Card
 							key={beer.id}
@@ -60,7 +60,7 @@ class Beer extends React.Component {
 							abv={beer.abv}
 						/>
 					))}
-				</CardsContainer>
+				</MainSectionContainer>
 				{this.state.beers.length > 14 && (
 					<button onClick={this.loadMore}>Load more</button>
 				)}

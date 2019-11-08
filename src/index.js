@@ -3,7 +3,8 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import App from "./App";
-import NotFound from "./NotFound";
+import Favorites from "./Favorites";
+import NotFound from "./NotFound/NotFound";
 
 function Routing() {
 	return (
@@ -11,6 +12,7 @@ function Routing() {
 			<div>
 				<Switch>
 					<Route exact path="/" component={App} />
+					<Route exact path="/favorites" component={Favorites} />
 					<Route component={NotFound} />
 				</Switch>
 			</div>

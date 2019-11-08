@@ -2,7 +2,61 @@
 	background: url("../images/pattern.svg");
 	background-color: black;
 
-	height: 25vh;
+	height: 35vh;
+	padding: 10rem 15rem;
 
-	padding: 3rem 10rem;
+	color: white;
+	font-size: 1.45rem;
+	font-weight: 700;
+
+	&__navigation {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.beer-logo-footer {
+			padding-right: 5px;
+			content: url("../images/symbol.svg");
+		}
+		.beer-symbol-footer {
+			content: url("../images/logo.svg");
+		}
+
+		&__links {
+			display: flex;
+			justify-content: space-between;
+			width: 30rem;
+
+			.nav-link {
+				color: white;
+				text-decoration: none;
+			}
+		}
+
+		&__social {
+			display: flex;
+			justify-content: space-between;
+			width: 10rem;
+
+			i {
+				cursor: pointer;
+			}
+		}
+	}
+
+	&__line {
+		display: flex;
+		justify-content: center;
+		padding-top: 4rem;
+		border-bottom: 2px solid;
+		border-bottom-color: rgba(249, 200, 71, 0.2);
+	}
+
+	&__copyright {
+		display: flex;
+		justify-content: center;
+		padding-top: 3rem;
+
+		font-size: 1.2rem;
+		color: rgba(255, 255, 255, 0.3);
+	}
 }

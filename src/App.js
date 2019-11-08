@@ -1,14 +1,14 @@
 import React from "react";
 
-import HeaderContainer from "./Header/HeaderContainer/HeaderContainer";
-import Beer from "./Beer";
+import Header from "./Header/Header/Header";
+import Home from "./Home";
 import Footer from "./Footer/Footer";
 
 function App() {
 	return (
-		<div className="App">
-			<HeaderContainer />
-			<Beer />
+		<div>
+			<Header />
+			<Home />
 			<Footer />
 		</div>
 	);
