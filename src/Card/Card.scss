@@ -14,23 +14,23 @@
 	width: 20rem;
 	height: 24rem;
 
-	&__non-favorite {
-		cursor: pointer;
-		background: url("./img/heart_outline.png") no-repeat;
-		align-self: flex-start;
-		margin: 4px;
-		padding: 1rem;
-		background-size: 1.5rem;
-	}
+	// &__non-favorite {
+	// 	cursor: pointer;
+	// 	background: url("./img/heart_outline.png") no-repeat;
+	// 	align-self: flex-start;
+	// 	margin: 4px;
+	// 	padding: 1rem;
+	// 	background-size: 1.5rem;
+	// }
 
-	&__favorite {
-		cursor: pointer;
-		background: url("./img/heart_solid.png") no-repeat;
-		align-self: flex-start;
-		margin: 4px;
-		padding: 1rem;
-		background-size: 1.5rem;
-	}
+	// &__favorite {
+	// 	cursor: pointer;
+	// 	background: url("./img/heart_solid.png") no-repeat;
+	// 	align-self: flex-start;
+	// 	margin: 4px;
+	// 	padding: 1rem;
+	// 	background-size: 1.5rem;
+	// }
 
 	&__inner-container {
 		display: flex;

@@ -1,4 +1,6 @@
 import React from "react";
+
+import FavoriteHeart from "../FavoriteHeart/FavoriteHeart";
 import "./Card.scss";
 
 class Card extends React.Component {
@@ -17,14 +19,11 @@ class Card extends React.Component {
 
 	render() {
 		return (
-			<div className="card">
-				<div
-					onClick={this.handleClick}
-					className={
-						this.state.favorite ? "card__favorite" : "card__non-favorite"
-					}
-				></div>
-
+			<div
+				className="card"
+				onClick={() => this.props.togglePopup(this.props.beer)}
+			>
+				<FavoriteHeart />
 				<div className="card__inner-container">
 					<div className="card__inner-container__beer-image">
 						<img alt="beer" src={this.props.src}></img>

@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./Card/Card";
+import PopupBeer from "./PopupBeer/PopupBeer";
 import MainSectionContainer from "./MainSectionContainer/MainSectionContainer";
 
 class Beer extends React.Component {
@@ -7,8 +8,10 @@ class Beer extends React.Component {
 		super(props);
 
 		this.state = {
+			showPopup: false,
 			page: 2,
-			beers: []
+			beers: [],
+			selectedBeer: []
 		};
 
 		// this.loadMore = this.loadMore.bind(this);
@@ -23,6 +26,13 @@ class Beer extends React.Component {
 
 		this.setState(prev => {
 			return { page: prev.page + 1 };
+		});
+	};
+
+	togglePopup = beer => {
+		this.setState({
+			selectedBeer: beer,
+			showPopup: !this.state.showPopup
 		});
 	};
 
@@ -58,12 +68,21 @@ class Beer extends React.Component {
 							beerName={beer.name}
 							ibu={beer.ibu}
 							abv={beer.abv}
+							beer={beer}
+							togglePopup={this.togglePopup}
 						/>
 					))}
 				</MainSectionContainer>
 				{this.state.beers.length > 14 && (
 					<button onClick={this.loadMore}>Load more</button>
 				)}
+
+				{this.state.showPopup ? (
+					<PopupBeer
+						beer={this.state.selectedBeer}
+						closePopup={this.togglePopup}
+					/>
+				) : null}
 			</div>
 		);
 	}
