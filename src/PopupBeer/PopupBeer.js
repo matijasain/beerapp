@@ -14,9 +14,26 @@ class PopupBeer extends React.Component {
 	handleClick = () => {
 		const currentFavorite = this.state.favorite;
 		this.setState({ favorite: !currentFavorite });
-	};
+  };
+  
+  componentDidMount(){
+
+  }
 
 	render() {
+    		// const something = this.state.beers.map(ingredients =>
+		// 	ingredients.ingredients.hops.map(hop => (
+		// 		<div>
+		// 			<p>{hop.name}</p>
+		// 			<p></p>
+
+		// 			<p></p>
+
+		// 			<p></p>
+		// 		</div>
+		// 	))
+    // );
+    
 		return (
 			<div className="popup">
 				<div className="popupInner">

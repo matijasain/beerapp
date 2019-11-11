@@ -10,7 +10,7 @@ export default class App extends React.Component {
 		page: 2,
 		beers: [],
 		selectedBeer: [],
-		favoriteBeers: []
+    favoriteBeers: []
 	};
 
 	loadMore = () => {

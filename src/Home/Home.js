@@ -18,21 +18,15 @@ class Home extends React.Component {
 	// handleClick = () => {
 	// 	const currentFavorite = this.state.favorite;
 	// 	this.setState({ favorite: !currentFavorite });
-	// };
+  // };
+  
+  componentDidMount(){
+
+  }
 
 	render() {
-		// const something = this.state.beers.map(ingredients =>
-		// 	ingredients.ingredients.hops.map(hop => (
-		// 		<div>
-		// 			<p>{hop.name}</p>
-		// 			<p></p>
+    console.log("asdasdasda",this.props.selectedBeer)
 
-		// 			<p></p>
-
-		// 			<p></p>
-		// 		</div>
-		// 	))
-		// );
 		return (
 			<div>
 				<Header />
@@ -43,7 +37,7 @@ class Home extends React.Component {
 							className="card"
 							onClick={() => this.props.togglePopup(beer)}
 						>
-							<FavoriteHeart />
+							<FavoriteHeart favorite={this.props.favorite} />
 							<div className="card__inner-container">
 								<div className="card__inner-container__beer-image">
 									<img alt="beer" src={beer.image_url}></img>
@@ -81,6 +75,14 @@ class Home extends React.Component {
 								</button>
 							</div>
 							<h1>{this.props.selectedBeer.name}</h1>
+              
+              <img className="main-image" src={this.props.selectedBeer.image_url} alt={this.props.selectedBeer.name}></img>
+              {this.props.selectedBeer.ingredients.hops.map(hop => (
+                <div>
+                  <p>{hop.name}</p>
+                </div>
+              ))}
+       
 
 							<div className="popupInner__favorite">
 								<button
