@@ -18,14 +18,12 @@ class Home extends React.Component {
 	// handleClick = () => {
 	// 	const currentFavorite = this.state.favorite;
 	// 	this.setState({ favorite: !currentFavorite });
-  // };
-  
-  componentDidMount(){
+	// };
 
-  }
+	componentDidMount() {}
 
 	render() {
-    console.log("asdasdasda",this.props.selectedBeer)
+		console.log("asdasdasda", this.props.selectedBeer);
 
 		return (
 			<div>
@@ -74,15 +72,33 @@ class Home extends React.Component {
 									Close
 								</button>
 							</div>
-							<h1>{this.props.selectedBeer.name}</h1>
-              
-              <img className="main-image" src={this.props.selectedBeer.image_url} alt={this.props.selectedBeer.name}></img>
-              {this.props.selectedBeer.ingredients.hops.map(hop => (
-                <div>
-                  <p>{hop.name}</p>
-                </div>
-              ))}
-       
+
+							<div className="popupInner__main">
+								<h1>{this.props.selectedBeer.name}</h1>
+								<div>
+									<img
+										className="main-image"
+										src={this.props.selectedBeer.image_url}
+										alt={this.props.selectedBeer.name}
+									></img>
+								</div>
+								<h2>Hops</h2>
+								{this.props.selectedBeer.ingredients.hops.map(hop => (
+									<div>
+										<p>{hop.name}</p>
+									</div>
+								))}
+								<h2>Malt</h2>
+								{this.props.selectedBeer.ingredients.malt.map(malt => (
+									<div>
+										<p>{malt.name}</p>
+									</div>
+								))}
+								<h2>Yeast</h2>
+								<div>
+									<p>{this.props.selectedBeer.ingredients.yeast}</p>
+								</div>
+							</div>
 
 							<div className="popupInner__favorite">
 								<button
